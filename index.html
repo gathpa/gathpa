@@ -1,0 +1,164 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Hyderabad - My City</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body data-spy="scroll" data-target="#mynavBar">
+      <video autoplay loop muted id="bgvideo">
+          <source src="images/DiwaliVideo.mp4" type="video/mp4">
+      </video>
+      
+      <nav role="navigation" class="navbar navbar-inverse" id="mynavBar">
+        
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand">Hyderabad - The city of pearls! </a>
+                  <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                      <span class="sr-only">Toggle navigation</span>      
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="navbar-collapse collapse" id="navbarCollapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li> <a class="active" href="index.html">Home</a></li>
+                      <li><a class="active"  href="Page2.html">Why Hyderabad?</a></li>
+    
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+      <div class="jumbotron" id="home">
+          <div class="container">
+              <h1>Being a Hyderabadi is so Awesome!</h1>
+              <h2> Wanna know why? </h2>
+              
+                <p id="postMyVideo"> Glimpse of Hyderabad..</p>
+              <div class="col-l-4"></div>
+                <iframe class="col-l-4" src="http://www.youtube.com/embed/BhKwX_H-IHA" frameborder="0" allowfullscreen></iframe>
+               </div>
+
+          </div>
+      
+    
+      <div id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="images/His.png" class="aboutImage"> 
+                      <h2> Historic value</h2>
+                      <p>The city of Nizams, Hyderabad is rich in historical heritage. Taramati baradari, Charminar, Falaknuma Palace, and Chowmala Palace are a few historic spots. It also houses the Salarjung Museum famous for Veiled Rebecca.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/monitor.png" class="aboutImage">
+                      <h2> IT hub </h2>
+                      <p>Known as the Silicon and Genome Valley of India, Hyderabad has well-known IT and biotechnology firms. Hyderabad being one of the largest IT hubs in India has HITEC city dedicated to its IT industry. Also, Facebooks first office in Asia had been set up in Hyderabad. </p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/house.png" class="aboutImage">
+                      <h2> Cost of living!</h2>
+                      <p> With high standards, living at Hyderabad is so cheap.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!--Create Carousel-->
+      <div id="promise" class="container-fluid">
+          <div class="carousel slide" id="myCarousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="1">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="2">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="3">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="4">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="5">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="6">
+                  </li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="images/Charminar.jpg">
+                      <div class="carousel-caption">
+                          <h2>Charminar being the global icon of Hyderabad around the globe, is one of the most magnificient structures of India.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/TankBund.jpg">
+                      <div class="carousel-caption">
+                          <h2>Tank Bund on the banks of hussain sagar in between the Twin cities is the main centre of attraction.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Ramoji.jpg">
+                      <div class="carousel-caption">
+                          <h2> Ramoji Film City is the World's larges film studio complex certified by Guineness World Records and is spread over a vast area of about 2500 acres. </h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Flag.jpeg">
+                      <div class="carousel-caption">
+                          <h2> The 291-foot tricolour flag in Hyderabad is located near the Sanjeeviah park.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Golconda.jpg">
+                      <div class="carousel-caption">
+                          <h2> One of India's most magnificient fortress was built in 14th century and has a glorious history.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Birla.jpg">
+                      <div class="carousel-caption">
+                          <h2>Birla Mandir was built wih 2000 tons of pure white marble.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Love.jpg">
+                      <div class="carousel-caption">
+                          <h2>Initiative took by Telangana government for the beautification of the city.</h2>
+                      </div>
+                  </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+              
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Previous</span>
+              
+              </a>
+          </div>
+      </div>
+      <!--footer-->
+      <div class="footer">
+          <div class="container">
+              <p> Contact-gathpasheshider@gmail.com.</p>
+          </div>
+      </div>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      <script>"js/myworks.js"</script>
+  </body>
+</html>
